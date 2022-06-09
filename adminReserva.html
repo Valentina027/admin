@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PanelAdminINV</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="css/AdminReserva.css">
+    <link rel="stylesheet" href="css/sidebaradmin.css">
+    <script src="js/admin.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <body id="body-pd">
+        <header class="header" id="header">
+            <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
+            <div> <img src="img/logo.png" width="100px" alt=""> </div>
+        </header>
+
+        <div class="l-navbar" id="nav-bar">
+            <nav class="nav">
+                <div> <a href="#" class="nav_logo"> <i class="bi bi-grid-3x3-gap-fill" style="color:white;"></i> <span
+                            class="nav_logo-name">MENU</span> </a>
+                    <div class="nav_list"> <a href="adminReserva.html" class="nav_link active"> <i class="bi bi-calendar-date"></i>
+                            <span class="nav_name">Reservas</span> </a> <a href="#" class="nav_link"><i
+                                class="bi bi-box2"></i></i> <span class="nav_name">Inventario</span> </a> <a href="#"
+                            class="nav_link"><i class="bi bi-door-closed-fill"></i><span
+                                class="nav_name">Habitaciones</span> </a> <a href="#" class="nav_link"><i
+                                class="bi bi-person-fill"></i><span class="nav_name">Usuarios</span> </a>
+                    </div>
+                </div> <a href="#" class="nav_link"> <i class='bx bx-log-out nav_icon'></i> <span
+                        class="nav_name">Cerrar sesión</span> </a>
+
+            </nav>
+        </div>
+        <!--MENU-->
+         <!--MENU-->
+         <div class="menu">
+            <div class="Menu1">
+
+                <div class="d-flex mb-3">
+                    <div class="me-auto p-2">
+                        <h4>Panel administrativo: Inventarios </h4>
+                    </div>
+                    <div class="p-2"><a class="btn btn-danger btn-sm" href="adminReserva.html" role="button">Ingresar Activo</a>
+                    </div>
+                    <div class="p-2"><a class="btn btn-danger btn-sm" href="AdminReserva1.html" role="button">Buscar Activo</a></div>
+                    </div>
+                    <div class="p-1"><a class="btn btn-danger btn-sm" href="adminReserva.html" role="button">Modificar Activo</a>
+                    </div>
+                    <div class="p-1"><a class="btn btn-danger btn-sm" href="AdminReserva1.html" role="button">Eliminar Activo</a></div>
+
+
+                </div>
+
+                <hr>
+
+                <div class="home-content">
+                    <div class="sales-boxes">
+                        <div class="recent-sales box">
+                            <section>
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">ID Activo</th>
+                                            <th scope="col">Referencia</th>
+                                            <th scope="col">Tipo de activo</th>
+                                            <th scope="col">Descripción</th>
+                                            <th scope="col">Fecha</th>
+                                            <th scope="col">Costo</th>
+                                            <th scope="col">Cantidad</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">0001</th>
+                                            <td>Toallas</td>
+                                            <td>Unidad</td>
+                                            <td>Toalla Habitacion</td>
+                                            <td>01/05/2022</td>
+                                            <td>30.000 U</td>
+                                            <td>80</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">0002</th>
+                                            <td>Sabanas</td>
+                                            <td>Dobles</td>
+                                            <td>Sabanas Habitaciones</td>
+                                            <td>01/05/2022</td>
+                                            <td>80.000 U</td>
+                                            <td>100</td>
+                                        
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">0003</th>
+                                            <td>Cobijas</td>
+                                            <td>Dobles</td>
+                                            <td> Cobijas Habitaciones</td>
+                                            <td>01/05/2022</td>
+                                            <td>80.000 U</td>
+                                            <td>50</td>
+                                        
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">0004</th>
+                                            <td>Cubrelechos </td>
+                                            <td>Dobles</td>
+                                            <td>Cubrelechos Habitaciones</td>
+                                            <td>01/05/2022</td>
+                                            <td>70.000 U</td>
+                                            <td>80</td>
+                                      
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">0005</th>
+                                            <td>Jabones</td>
+                                            <td>Unidad</td>
+                                            <td>Jabon Tocador</td>
+                                            <td>01/05/2022</td>
+                                            <td>25.000 C</td>
+                                            <td>200</td>
+                                    
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </section>
+                            <div class="d-flex justify-content-end">
+                                <a class="btn btn-outline-danger" href="#" role="button">Consultar</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!--Container Main end-->
+    </body>
+
+</html>
